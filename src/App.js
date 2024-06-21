@@ -27,12 +27,14 @@ function App() {
 const ChildComponent = React.memo(function ({ count, onClick }) {
   console.log("Child Component Rendered");
   return (
-    
+
     <div>
       <h1>{count}</h1>
       <button onClick={onClick}>Increment</button>
     </div>
   );
 });
+// this is my commit 
+
 
 export default App;
